@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* imported css  */
+@import "/css/media-qeries.css";
+
+:root{
+    /* colors */
+    --blue:  #274c92;
+    --green: #4da246;
+    --dark: #111;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Global Tags */
+h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+
+
+span{
+    font-size: .9rem;
+}
+
+h6{
+    font-size: 1.1rem;
+}
+.heading{
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+.heading h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--dark);
+}
+.heading p{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--green);
+}
+
+
+/* how it works sectim */
+
+.howitwork{
+    padding: 7rem 0;
+}
+.howitwork .howbox{
+    padding: 1.5rem;
+    border: 1px solid #111;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: ease-in .3s;
+}
+.howitwork .howbox:hover{
+    background-color: var(--dark);
+}
+
+.howitwork .howbox:hover .how-icon i,
+.howitwork .howbox:hover h4,
+.howitwork .howbox:hover p
+{
+    transition: ease .3s;
+   color: #fff;
+}
+.howitwork .howbox .how-icon{
+    margin-bottom: .7rem;
+}
+.howitwork .howbox .how-icon i{
+    font-size: 3rem;
+    color: var(--green);
+}
+.howitwork .howbox h4{
+    font-weight: 600;
+}
+
+.howitwork .howbox p{
+    font-weight: 400;
+    color: rgb(121, 121, 121);
+}
+
+/* course section */
+#courses{
+    padding: 7rem 0;
+    background-color: rgba(121, 121, 121, 0.048);
+}
+
+.courses .course-more{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.courses .course-more a{
+    text-decoration: none;
+    padding: .5rem 1rem;
+    background-color: var(--green);
+    color: white;
+    border: 1px solid var(--green);
+    font-weight: 500;
+    transition: ease-in .3s;
+}
+.courses .course-more a:hover{
+    color: var(--green);
+    background-color: #fff;
+}
+.courses .course-box{
+    margin-bottom: 1.5rem;
+    box-shadow: 1px 1px 10px rgba(17, 17, 17, 0.068);
+}
+
+.courses .course-box .course-img img{
+    width: 100%;
+}
+
+.courses .course-box .course-text{
+    padding: 1rem;
+    background-color: #fff;
+}
+.courses .course-box .course-text small{
+    color: rgb(121, 121, 121);
+}
+.courses .course-box .course-text .course-name h5{
+    color: var(--green);
+}
+
+.courses .course-box .course-text .stars-money{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.courses .course-box .course-text .stars-money .stars i{
+    color: goldenrod;
+}
+
+.courses .course-box .course-text .stars-money .money p{
+    font-weight: 600;
+    color: #111;
+}
+
+
+.courses .course-box .course-text .course-link a{
+   text-decoration: none;
+   color: var(--green);
+   font-weight: 600;
+   font-size: 1.1rem;
+   border-bottom: var(--green) solid 2px;
+   transition: ease-in .3s;
+}
+.courses .course-box .course-text .course-link a:hover{
+    letter-spacing: 1px;
+    color: var(--blue);
+    border-bottom: var(--blue) solid 2px;
+}
+/* tutor section */
+
+#tutor{
+    height: 65vh;
+    background-image: linear-gradient(rgb(39, 76, 146, 0.31),rgba(0, 0, 0, 0.91)), url('/img/bg/study.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#tutor .tutor-text h2{
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+#tutor .tutor-text h2 span{
+    font-size: inherit;
+    color: var(--blue);
+}
+#tutor .tutor-text p{
+   width: 80%;
+   margin: auto;
+   color: #fff;
+}
+
+#tutor .tutor-text .tutor-link{
+    margin-top: 1.3rem;
+}
+
+#tutor .tutor-text .tutor-link a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: ease-in .3s;
+    background-color: var(--green);
+    border: 1px solid var(--green);
+    padding: .5rem 1rem;
+}
+
+
+#tutor .tutor-text .tutor-link a:hover{
+    background-color: transparent;
+    color: var(--green);
+}
+
+
+/* progress  and comment sectiom */
+
+#progress-comment.progress-comment{
+    padding: 7rem 0;
+}
+
+.progress-comment .progress-report{
+    background-color: var(--blue);
+    padding: 1.5rem;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    margin: .5rem;
+}
+
+.progress-comment .progress-report h3{
+    font-weight: 600;
+    margin: 2.5rem 0;
+}
+.progress-comment .progress-report p{
+    margin-bottom: 2rem;
+}
+
+.progress-comment .progress-report .progress-flex i{
+    font-size: 2.5rem;
+}
+
+
+
+.progress-comment .comment{
+    background-color: var(--blue);
+    padding: 1.5rem;
+    margin: .5rem;
+    background-color: rgba(121, 121, 121, 0.048);
+    height: 100%;
+    text-align: center;
+}
+
+
+.progress-comment .comment h3{
+    font-weight: 600;
+    margin: 2.5rem 0;
+    color: var(--dark);
+    text-align: center;
+}
+
+.progress-comment .comment .comment-text div i{
+    font-size: 2.8rem;
+    color: var(--blue);
+    margin-bottom: 1rem;
+}
+
+.progress-comment .comment .comment-text p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+.progress-comment .comment .comment-text .comment-author{
+    padding: 2rem 0;
+}
+
+.progress-comment .comment .comment-text .comment-author h4{
+    font-weight: 600;
+}
+
+/* other service */
+#service.service{
+    padding: 7rem 0;
+    background-color: rgba(121, 121, 121, 0.048);
+}
+
+.service .logo-box{
+    padding: 1.5rem;
+    background: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.service .logo-box img{
+    width: 100px;
+    filter: contrast(100%);
+    transition: ease-in .3s;
+}
+
+.service .logo-box:hover img{
+    filter: contrast(10%);
+}
+
+/* app section */
+
+#app.app{
+    padding: 7rem 0;
+}
+
+.app .app-box{
+    padding: 2rem;
+}
+.app .app-box img{
+    width: auto;
+}
+
+.app .app-text{
+    padding: 2rem;
+    width: 75%;
+    background:rgba(121, 121, 121, 0.048);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+.app .app-text h3
+{
+    font-weight: 600;
+    margin: 2rem 0;
+}
+.app .app-text span{
+    font-size: inherit;
+    color: var(--green);
+}
+
+.app .app-text p{
+    font-weight: 300;
+}
+
+
+
+.app .app-text .img-link img{
+    height: 50px;
+    margin: .8rem 0;
+}
+
+/* faqs section */
+
+#faqs.faqs{
+    padding: 7rem 0;
+    background-color: rgba(121, 121, 121, 0.048);
+}
+
+.acc-box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#faqs .faq{
+        max-width: 700px;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #111;
+        cursor: pointer;
+}
+
+#faqs .question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#faqs .question h3{
+    font-size: 1.4rem;
+    color: #111;
+    font-weight: 600;
+}
+#faqs .answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+#faqs .answer p{
+    padding-top: 1rem;
+    line-height: 1.2;
+    font-size: 1rem;
+    color: var(--secondary);
+}
+
+#faqs .faq.active .answer{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+#faqs .faq.active svg{
+    transform: rotate(180deg);
+}
+
+#faqs svg{
+    transition: transform 0.5s ease-in ;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* footer section */
+#footer.footer{
+    padding: 7rem 0;
+    background-color: var(--dark);
+}

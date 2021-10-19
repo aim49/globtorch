@@ -1,0 +1,30 @@
+/* Responsive website media queries */
+@media (max-width: 1399.98px) { 
+
+}
+
+@media (max-width: 1199.98px) {
+
+ }
+
+
+@media (max-width: 991.98px) { 
+    
+}
+
+@media (max-width: 767.98px) {
+    /* counter and testimoney section */
+    .progress-comment .progress-report {
+        margin-bottom: 2rem !important;
+    }
+    /* app android section */
+    .app .app-text {
+        width: 100% !important;
+    }
+ }
+
+
+@media (max-width: 575.98px) { 
+
+ }
+

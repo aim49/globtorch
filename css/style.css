@@ -2,6 +2,7 @@
 
 /* imported css  */
 @import "/css/media-qeries.css";
+@import '/css/navigation.css';
 
 :root{
     /* colors */
@@ -47,15 +48,104 @@ h6{
     font-weight: 500;
     color: var(--green);
 }
+/*booostrap nav */
+
+.b-nav .navbar{
+    box-shadow: 1px 1px 5px #888888;
+    background: #fff;
+}
+
+.b-nav .navbar .nav-item .nav-link{
+    color: var(--blue);
+    transition: .3s ease-in;
+}
+.b-nav .navbar .nav-item .nav-link.active{
+    color: var(--green)!important;
+}
+
+.b-nav .navbar .nav-item .nav-link:hover{
+    color: var(--green);
+}
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* home */
+
+#home{
+    background-image: linear-gradient(rgba(9, 5, 54 ,0.3), rgba(5, 4, 46, 0.7)), url("/img/bg/girl0study.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#home h1{
+    color: #fff;
+    font-size: 2.6rem;
+    letter-spacing: 1px; 
+}
 
 
+#home p{
+    color: #fff;
+    width: 50%;
+    font-size: .9rem;
+    letter-spacing: 1px; 
+    line-height: 25px;
+}
+
+#home .btn{
+    margin-top: 30px;
+}
+#home a{
+    text-decoration: none;
+    font-size: .9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+#home a.blue{
+    color: #fff;
+    background-color:#274c92;
+}
+#home a.blue:hover{
+    color: #274c92;
+    background-color:#fff;
+    transition: 0.3s ease;
+}
+
+#home a.green{
+    color: #fff;
+    background-color: #4da246;
+}
+#home a.green:hover{
+    color: #274c92;
+    background-color:#fff;
+    transition: 0.3s ease;
+}
 /* how it works sectim */
 
 .howitwork{
     padding: 7rem 0;
 }
 .howitwork .howbox{
-    padding: 1.5rem;
+    padding:2rem 1.5rem;
     border: 1px solid #111;
     text-align: center;
     cursor: pointer;
@@ -422,4 +512,119 @@ h6{
 #footer.footer{
     padding: 7rem 0;
     background-color: var(--dark);
+}
+
+.footer .footer-content .company-details h4,
+.footer .footer-content .link h4,
+.footer .footer-content .newsletter h4{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: .6rem;
+}
+
+.footer .footer-content .company-details .small-line,
+.footer .footer-content .link .small-line,
+.footer .footer-content .newsletter .small-line{
+    width: 3rem;
+    height: 2px;
+    background-color: var(--green);
+    margin-bottom: 1.5rem;
+}
+.footer .footer-content .company-details ul,
+.footer .footer-content .link ul {
+    padding: 0;
+}
+
+.footer .footer-content .company-details ul li,
+.footer .footer-content .link ul li{
+    list-style: none;
+}
+.footer .footer-content .company-details ul li p{
+    color: #fff;
+    font-size: .9rem;
+    margin: .4rem 0;
+}
+.footer .footer-content .company-details ul li p i{
+    color: #fff;
+    padding: .2rem;
+    margin-right: .2rem;
+    background-color: var(--green);
+}
+
+.footer .footer-content .link ul li a{
+    text-decoration: none;
+    font-size: .9rem;
+    color: #fff;
+    transition: .3s ease-in;
+}
+
+.footer .footer-content .link ul li a:hover{
+    color: var(--green);
+}
+
+.footer .footer-content .newsletter form{
+    border: 1px solid #111;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: .2rem;
+    background-color: rgba(121, 121, 121, 0.664);
+}
+
+.footer .footer-content .newsletter form input{
+    border: none;
+    outline: none;
+    padding: .3rem .6rem;
+    width: 100%;
+    height: 2.3rem;
+}
+
+.footer .footer-content .newsletter form button{
+    height: 2.3rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: var(--green);
+    padding: .3rem 1rem;
+    color: white;
+    transition: .3s ease-in;
+}
+
+.footer .footer-content .newsletter form button:hover{
+    background: var(--blue);
+}
+
+.footer .footer-content .newsletter .social-links{
+    margin-top: 1.3rem;
+}
+.footer .footer-content .newsletter .social-links ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .footer-content .newsletter .social-links ul li{
+    list-style: none;
+}
+
+.footer .footer-content .newsletter .social-links ul li a{
+    text-decoration: none;
+    color: var(--green);
+    padding: .4rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    transition: .3s ease-in;
+}
+
+.footer .footer-content .newsletter .social-links ul li a:hover{
+    color: #fff;
+}
+
+.footer .footer-bottom{
+    margin: 2rem 0 0 0;
+}
+.footer .footer-bottom p{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
 }

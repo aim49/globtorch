@@ -13,6 +13,7 @@
 }
 
 @media (max-width: 767.98px) {
+
     /* counter and testimoney section */
     .progress-comment .progress-report {
         margin-bottom: 2rem !important;
@@ -21,10 +22,30 @@
     .app .app-text {
         width: 100% !important;
     }
+    /* faqs */
+    #faqs .question h3{
+        font-size: 1.1rem!important;
+        font-weight: 500!important;
+    }
  }
 
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
+     /*footer content  */
+   .footer{
+    text-align: center;
+   }
+   .footer .footer-content .newsletter .social-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    .footer .footer-content .newsletter .social-links ul li a{
+        margin: 0rem .5rem;
+    }
+    .footer .footer-content .small-line{
+        margin: auto;
+    }
 
  }
 

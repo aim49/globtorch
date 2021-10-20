@@ -31,6 +31,18 @@
 
 
 @media (max-width: 575.98px) {
+    /* home */
+    
+    #home p{
+        width: 80% !important;
+        
+    }
+    #home a{
+        padding: 5px 15px;
+        
+    
+    }
+
      /*footer content  */
    .footer{
     text-align: center;

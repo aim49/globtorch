@@ -15,6 +15,16 @@
 <body>
   
     
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div> 
+
+    
     <!-- section home -->
     <section id="b-nav" class="b-nav">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -26,29 +36,32 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 sm-mb-1 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 sm-mb-1 mb-lg-0 ">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="/pages/about.html">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Course</a>
+                    <a class="nav-link" href="pages/courses.html">Course</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Become a Tutor</a>
+                    <a class="nav-link" href="pages/tutor.html">Become a Tutor</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="pages/contact.html">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">LogIn</a>
+                    <a class="nav-link" href="pages/login.html">LogIn</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
+                    <a class="nav-link" href="pages/register.html">Register</a>
                   </li>
                 </ul>
+                <div class="nav-btn">
+                    <button class="enquiries-btn">Enquiries</button>
+                </div>
               </div>
             </div>
           </nav>
@@ -59,7 +72,7 @@
             Welcome to Globtorch Online Education
         </h1>
         <p>
-            Zimbabwe's leading online education specialist offering courses for all levels of learning, from primary to tertiary education.
+            Global leading online education specialist offering courses for all levels of learning, from primary to tertiary education.
         </p>
         <div class="btn">
             <a href="#" class="blue">Register</a>
@@ -121,6 +134,35 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- course selection -->
+    <section id="course-selector" class="course-selector">
+        <div class="cs-wrap">
+            <form action="" method="post">
+               <div class="row">
+                <div class="col-md-3 col-sm-2 col-12 mt-2">
+                    <div class="form-group">
+                      <select class="form-control" name="" id="">
+                        <option>Select Course</option>
+                        <option>IT</option>
+                        <option>Law</option>
+                        <option>Politics</option>
+                      </select>
+                    </div>
+                </div>
+                <div class="col-md-36 col-sm-6 col-12 mt-2">
+                    <div class="form-group">
+                      <input type="text"
+                        class="form-control" name="" id="" aria-describedby="helpId" placeholder="Course Name">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-2 col-12 mt-2">
+                    <button type="button" name="" id="" class="course-search">Search</button>
+                </div>
+               </div>
+            </form>
         </div>
     </section>
 
@@ -653,78 +695,8 @@
     <section id="footer" class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
-                    <div class="footer-content">
-                        <div class="company-details">
-                            <h4>
-                                Globtoch Online Learning
-                            </h4>
-                            <div class="small-line"></div>
-                            <ul>
-                                <li>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                         Libero tenetur cum autem aut repellat officiis facere.
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <i class="las la-crosshairs"></i>
-                                        1212 Cowdray Park
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <i class="las la-envelope-open-text"></i>
-                                        aimmak49@gmail.com
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <i class="las la-phone"></i>
-                                        + (263) 771909951
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6">
-                    <div class="footer-content">
-                       <div class="link">
-                           <h4>
-                               Links
-                           </h4>
-                           <div class="small-line"></div>
-                           <ul>
-                               <li><a href="#">Home</a></li>
-                               <li><a href="#">About</a></li>
-                               <li><a href="#">Course</a></li>
-                               <li><a href="#">Libary</a></li>
-                               <li><a href="#">Contact</a></li>
-                           </ul>
-                       </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6">
-                    <div class="footer-content">
-                       <div class="link">
-                           <h4>
-                               Serivces
-                           </h4>
-                           <div class="small-line"></div>
-                           <ul>
-                            <li><a href="#">Africanscity</a></li>
-                            <li><a href="#">e-caampus</a></li>
-                               <li><a href="#">DottBook</a></li>
-                               <li><a href="#">G-Storex</a></li>
-                               <li><a href="#">Abisiniya</a></li>
-                               
-                           </ul>
-                       </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+
+                <div class="col-12">
                     <div class="footer-content">
                         <div class="newsletter">
                            <h4>

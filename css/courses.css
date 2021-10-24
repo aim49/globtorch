@@ -1,0 +1,61 @@
+
+/* home */
+
+#landing-page{
+    background-image: linear-gradient(rgba(9, 5, 54 ,0.3), rgba(5, 4, 46, 0.7)), url("/img/bg/graduate.jpg");
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#landing-page h1{
+    color: #fff;
+    font-size: 2.6rem;
+    letter-spacing: 1px; 
+}
+
+#landing-page p{
+    color: #fff;
+    width: 50%;
+    font-size: .9rem;
+    letter-spacing: 1px; 
+    line-height: 25px;
+    font-weight: 500;
+}
+
+#landing-page p a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease-in;
+}
+
+#landing-page p a:hover{
+    color: var(--green);
+}
+
+/* courses pagination */
+
+#courses .course-pagination .page-link{
+    color: var(--blue);
+}
+
+#courses .course-pagination .page-item.active .page-link{
+    background-color: var(--green);
+    color: white;
+    border: var(--green);
+}
+
+#courses .course-pagination .page-item:active,
+#courses .course-pagination .page-item:focus,
+#courses .course-pagination .page-item .page-link:focus,
+#courses .course-pagination .page-item .page-link:active{
+    outline: none;
+    box-shadow: none;
+}

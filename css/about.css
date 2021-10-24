@@ -1,1 +1,31 @@
-/* company details */
+/* About Us */
+#company-profile{
+    padding: 7rem 0;
+}
+
+#company-profile .profile-details{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#company-profile .profile-img{
+    margin-bottom: 2rem;
+}
+
+#company-profile .profile-details h2{
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 1.5rem;
+}
+
+#company-profile .profile-details h2 span{
+    font-size: inherit;
+    color: var(--green);
+}
+
+
+#company-profile .profile-details p{
+    line-height: 1.7rem;
+}

@@ -4,7 +4,8 @@
 @import "/css/media-qeries.css";
 @import '/css/courses.css';
 @import '/css/about.css';
-
+@import '/css/tutor.css';
+@import '/css/contact.css';
 
 :root{
     /* colors */

@@ -14,6 +14,12 @@
 
 @media (max-width: 767.98px) {
 
+    /* global */   
+    .heading h2{
+        font-size: 2rem!important;
+    }
+
+
     /* counter and testimoney section */
     .progress-comment .progress-report {
         margin-bottom: 2rem !important;
@@ -26,6 +32,26 @@
     #faqs .question h3{
         font-size: 1.1rem!important;
         font-weight: 500!important;
+    }
+
+    /* about css */
+    #company-profile .profile-details{
+        text-align: center;
+        font-size: .915rem;
+    }
+
+    /* tutor */
+    .tutor-info .tutor-text{
+        width: 100%!important;
+    }
+    
+    .tutor-info .img-bx{
+        width: 100% !important;
+        
+    }
+    
+    #apply-tutor .apply-text p{
+        text-align: center!important;
     }
  }
 

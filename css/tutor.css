@@ -1,0 +1,56 @@
+/* teahcer css file */
+#tutor-info{
+    padding: 7rem 0 1rem 0;
+}
+
+.tutor-info .tutor-text{
+    width: 80%;
+    margin: auto;
+}
+
+.tutor-info .img-bx{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.tutor-info .img-bx img{
+    height: 70vh;
+}
+
+/* apply button line */
+
+#apply-tutor{
+    padding: 2rem 0;
+    background-color: var(--green);
+}
+
+#apply-tutor .apply-text{
+    margin: 1rem 0;
+}
+
+#apply-tutor .apply-text p{
+    color: #fff;
+}
+#apply-tutor .apply-btn{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#apply-tutor .apply-btn a{
+    padding: .5rem 3rem;
+    background-color: var(--blue);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    transition: .3s ease-in;
+    font-weight: 600;
+}
+
+#apply-tutor .apply-btn a:hover{
+    background-color: #fff;
+    color: var(--green);
+}

@@ -65,8 +65,9 @@
     padding-left: 45px;
 }
 
+
 .form-box .form-input select > option{
-    color: red;
+    color: #111;
 }
 
 .form-box .form-input span{

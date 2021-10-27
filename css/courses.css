@@ -59,3 +59,118 @@
     outline: none;
     box-shadow: none;
 }
+
+/* course innner */
+
+#course-inner.course-inner{
+    padding: 7rem 0;
+}
+
+.course-inner h2{
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.course-inner .course-upper{
+    background-color: rgba(121, 121, 121, 0.048);
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+
+
+.course-inner .course-upper .upper-box small{
+    font-size: .8rem;
+    color: rgba(128, 128, 128, 0.829);
+}
+
+.course-inner .course-upper .upper-box p{
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: var(--green);
+}
+
+
+.course-inner .course-upper .upper-box a{
+    color: #fff;
+    font-weight: 500;
+    padding: .4rem 1rem;
+    background-color: var(--green);
+    text-decoration: none;
+    line-height: 4rem;
+    transition: 0.3s ease-in;
+    border: 1px solid var(--green);
+}
+
+.course-inner .course-upper .upper-box a:hover{
+    color: var(--green);
+    background-color: transparent;
+}
+
+.course-inner .course-inner-bx img{
+    height: 70vh;
+    width: 100%;
+}
+
+
+.course-inner .course-details{
+    padding: 1rem;
+    margin: .5rem 0;
+    background-color:rgba(121, 121, 121, 0.048);
+}
+
+
+.course-inner .course-details h4{
+    font-weight: 600;
+    color: var(--blue);
+}
+.course-inner .course-details p{
+    color: var(--dark);
+}
+
+.course-inner .course-features{
+    background-color: rgba(121, 121, 121, 0.048);
+    padding: 1rem;
+}
+.course-inner .course-features h5{
+    font-weight: 600;
+    color: var(--blue);
+    margin-bottom: 1.6rem;
+}
+
+.course-inner .course-features  .feature-btwn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.course-inner .course-features  .feature-btwn i{
+    color: var(--green);
+    margin-right: .5rem;
+}
+
+.course-inner .course-features  .feature-btwn small{
+    font-weight: 400;
+}
+
+.course-inner .other-courses{
+    background-color: rgba(121, 121, 121, 0.048);
+    padding: 1rem;
+    margin: 2rem 0;
+}
+.course-inner .other-courses h5{
+    font-weight: 600;
+    color: var(--blue);
+    margin-bottom: 1.6rem;
+}
+.course-inner .other-courses ul{
+    padding-left: 1rem;
+}
+.course-inner .other-courses ul li{
+    list-style: none;
+}
+
+.course-inner .other-courses ul li a{
+    text-decoration: none;
+    color: var(--dark);
+}

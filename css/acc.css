@@ -83,6 +83,7 @@
 
 .form-box .form-input input::placeholder{
     padding-left: 0px;
+    color: #111;
 }
 .form-box .form-input input:focus,
 .form-box .form-input input:valid,

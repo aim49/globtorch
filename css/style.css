@@ -732,6 +732,26 @@ h6{
 }
 .footer .footer-bottom p{
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
+    margin-top: -.9rem;
+}
+
+/* parnters */
+
+.partners {
+	margin-top: 7rem;
+	background-color: #f7f7f7;
+	padding: 60px 0px;
+}
+
+.partners .owl-item {
+	text-align: center;
+	cursor: pointer;
+}
+
+.partners .partner-item img {
+	max-width: 100px;
+	height: 100px;
+	margin: auto;
 }
